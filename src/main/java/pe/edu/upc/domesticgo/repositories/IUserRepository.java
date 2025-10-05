@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import pe.edu.upc.domesticgo.entities.Users;
 
+
 @Repository
 public interface IUserRepository extends JpaRepository<Users, Long> {
     public Users findOneByUsername(String username);
