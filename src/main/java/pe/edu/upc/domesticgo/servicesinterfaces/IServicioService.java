@@ -1,9 +1,6 @@
 package pe.edu.upc.domesticgo.servicesinterfaces;
 
-import pe.edu.upc.domesticgo.dtos.IngresosPorServicioDTO;
-import pe.edu.upc.domesticgo.dtos.ServicioCanceladoDTO;
-import pe.edu.upc.domesticgo.dtos.ServiciosPendientesDTO;
-import pe.edu.upc.domesticgo.dtos.TotalServiciosSolicitadoDTO;
+import pe.edu.upc.domesticgo.dtos.*;
 import pe.edu.upc.domesticgo.entities.Servicio;
 
 import java.time.LocalDate;

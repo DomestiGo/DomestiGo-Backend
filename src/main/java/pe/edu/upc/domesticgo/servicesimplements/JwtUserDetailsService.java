@@ -13,6 +13,7 @@ import pe.edu.upc.domesticgo.repositories.IUserRepository;
 import java.util.ArrayList;
 import java.util.List;
 
+
 //Clase 2
 @Service
 public class JwtUserDetailsService implements UserDetailsService {
