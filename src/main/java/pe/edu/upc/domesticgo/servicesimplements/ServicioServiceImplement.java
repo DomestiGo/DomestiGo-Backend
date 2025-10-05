@@ -2,8 +2,12 @@ package pe.edu.upc.domesticgo.servicesimplements;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pe.edu.upc.domesticgo.dtos.IngresosPorServicioDTO;
 import pe.edu.upc.domesticgo.dtos.ServicioCanceladoDTO;
+import pe.edu.upc.domesticgo.dtos.ServiciosPendientesDTO;
+import pe.edu.upc.domesticgo.dtos.TotalServiciosSolicitadoDTO;
 import pe.edu.upc.domesticgo.entities.Servicio;
+import pe.edu.upc.domesticgo.repositories.IServicioRepository;
 import pe.edu.upc.domesticgo.servicesinterfaces.IServicioService;
 
 import java.time.LocalDate;

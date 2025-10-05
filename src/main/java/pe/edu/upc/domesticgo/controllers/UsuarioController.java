@@ -4,7 +4,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
+import pe.edu.upc.domesticgo.dtos.UsuarioDTO;
 import pe.edu.upc.domesticgo.entities.Usuario;
+import pe.edu.upc.domesticgo.servicesinterfaces.IUsuarioService;
 
 import java.util.List;
 import java.util.stream.Collectors;
